@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cardContent{
+  @apply flex w-full justify-between p-4 mt-4 rounded-xl
+}
+
+.backgroundPrincipal{
+  background: rgb(120,87,255);
+  background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,.9) 50%);
+}
+
+.backgroundCircule{
+  background: rgb(78,33,202);
+  background: linear-gradient(180deg, rgba(78,33,202,.7) 0%, rgba(36,33,202,.04) 50%);
+}
+
+@layer base {
+    html {
+      font-family: 'Hanken Grotesk', sans-serif;
+    }
+  }
