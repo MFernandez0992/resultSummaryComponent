@@ -631,6 +631,19 @@ html {
   border-bottom-left-radius: 1.5rem;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-dark-grayblue {
+  --tw-border-opacity: 1;
+  border-color: hsl(224 30% 27% / var(--tw-border-opacity));
+}
+
 .bg-cobalt-blue-transparent {
   background-color: hsla(234, 85%, 45%, 0.1);
 }
@@ -754,6 +767,20 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-75 {
+  transition-duration: 75ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
 .cardContent {
   margin-top: 1rem;
   display: flex;
@@ -771,6 +798,43 @@ html {
 .backgroundCircule{
   background: rgb(78,33,202);
   background: linear-gradient(180deg, rgba(78,33,202,.7) 0%, rgba(36,33,202,.04) 50%);
+}
+
+.hover\:rounded:hover {
+  border-radius: 0.25rem;
+}
+
+.hover\:border-2:hover {
+  border-width: 2px;
+}
+
+.hover\:border-solid:hover {
+  border-style: solid;
+}
+
+.hover\:border-gray-800:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(31 41 55 / var(--tw-border-opacity));
+}
+
+.hover\:border-dark-grayblue:hover {
+  --tw-border-opacity: 1;
+  border-color: hsl(224 30% 27% / var(--tw-border-opacity));
+}
+
+.hover\:bg-gray-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
