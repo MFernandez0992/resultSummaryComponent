@@ -27,7 +27,7 @@ Para utilizar el proyecto, se debe clonar el repositorio en la máquina local y 
 ## Estructura de archivos
 El proyecto cuenta con los siguientes archivos:
 
-- index.html: archivo HTML que contiene la estructura del componente.
+- index.html: Se encuentra dentro de la carpeta dist, archivo HTML que contiene la estructura del componente.
 - style.css: archivo CSS generado por Tailwindcss.
 - tailwind.config.js: archivo de configuración de Tailwindcss que se utiliza para construir componentes css personalizados.
 - README.md: archivo de documentación del proyecto.
