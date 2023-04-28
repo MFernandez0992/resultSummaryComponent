@@ -1,14 +1,19 @@
 # Frontend Mentor - Results Summary Component
 
 ## Bienvenido! 👋
-Este es un proyecto de Frontend Mentor(https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) que consiste en construir un componente de resumen de resultados. Para completar el proyecto, se utiliza HTML y Tailwindcss, construyendo componentes css personalizados dentro de Tailwindcss para adaptar el diseño al challenge.
+Este es un proyecto de [Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) que consiste en construir un componente de resumen de resultados. Para completar el proyecto, se utiliza HTML y Tailwindcss, construyendo componentes css personalizados dentro de Tailwindcss para adaptar el diseño al challenge.
 
 ## Tecnologías utilizadas
 El proyecto fue construido utilizando las siguientes tecnologías:
 
-- HTML
+- HTML5
 - Tailwindcss
-- CSS personalizado construido dentro de Tailwindcss
+- Propiedades personalizadas de CSS para Tailwindcss
+- Flexbox
+- Mobile first
+
+## Mobile First
+El proyecto fue construido partiendo del concepto Mobile First y escalando el responsive a su versión de escritorio
 
 ## Descripción del proyecto
 El objetivo de este proyecto es construir un componente de resumen de resultados que pueda ser utilizado en cualquier sitio web. El componente muestra una serie de resultados en forma de tarjetas y cada tarjeta muestra una imagen, un título y una descripción del resultado.
@@ -21,7 +26,7 @@ Para utilizar el proyecto, se debe clonar el repositorio en la máquina local y 
 
 - bash
 - Copy code
-- git clone https://github.com/tu-usuario/results-summary-component.git
+- git clone https://github.com/mfernandez0992/results-summary-component.git
 - cd results-summary-component
 
 ## Estructura de archivos
