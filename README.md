@@ -1,9 +1,7 @@
 # Frontend Mentor - Results Summary Component
 
-![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
-
 ## Bienvenido! 👋
-Este es un proyecto de Frontend Mentor[https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV] que consiste en construir un componente de resumen de resultados. Para completar el proyecto, se utiliza HTML y Tailwindcss, construyendo componentes css personalizados dentro de Tailwindcss para adaptar el diseño al challenge.
+Este es un proyecto de Frontend Mentor(https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) que consiste en construir un componente de resumen de resultados. Para completar el proyecto, se utiliza HTML y Tailwindcss, construyendo componentes css personalizados dentro de Tailwindcss para adaptar el diseño al challenge.
 
 ## Tecnologías utilizadas
 El proyecto fue construido utilizando las siguientes tecnologías:
